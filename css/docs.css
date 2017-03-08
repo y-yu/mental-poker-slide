@@ -1,0 +1,109 @@
+body {
+	font-family: "HelveticaNeue-UltraLight";
+	font-size: 4em;
+}
+
+p {
+	text-align: justify;
+	text-justify: newspaper;
+}
+
+.hoefler {
+	font-family: "HoeflerText-Regular";
+}
+
+.inversion {
+	background-color: #002b36;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 2.5em;
+}
+
+em {
+	font-family: "HelveticaNeue-UltraLightItalic";
+}
+
+.light {
+	font-family: 'HelveticaNeue-Light';
+}
+
+.large {
+	font-size: 1.5em;
+}
+
+.Large {
+	font-size: 2em;
+}
+
+.LARGE {
+	font-size: 2.5em;
+}
+
+.huge {
+	font-size: 3em;
+}
+
+.Huge {
+	font-size: 3.5em;
+}
+
+.HUGE {
+	font-size: 4em;
+}
+
+.lime-green {
+	color: limegreen;
+}
+
+.deep-pink {
+	color: deeppink;
+}
+
+.step {
+	padding-top: 20px;
+	width: 1050px;
+	height: 700px;
+}
+
+.sheet {
+	background: rgba(255, 255, 255, 0.95);
+	color: rgba(0, 0, 0, 1);
+}
+
+.focus-only, .past-only, .fast-focus-only {
+	transition: opacity 0.5s ease-in-out 0s;
+
+	opacity: 0.0;
+}
+
+.active .focus-only, .active .focus-or-past, .past .past-only, .future .focus-or-past {
+	opacity: 1.0;
+}
+
+.active .fast-focus-only {
+	transition: opacity 0s ease-in-out 0s;
+
+	opacity: 1.0;
+}
+
+.past-only-display {
+	transition: opacity 0.5s ease-in-out 0.5s;
+
+	display: inline-block;
+	height: auto;
+	width: auto;
+	opacity: 1;
+}
+
+.active .past-only-display {
+	transition: opacity 0.5s ease-in-out 0.5s;
+
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+
