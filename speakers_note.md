@@ -12,23 +12,23 @@ but if you know about cryptography, I think it is more interesting.
 # step 2
 
 Do you know about Mental Poker?
-If you know about this, raise your hand.
 
 # step 3
 
-Mental Poker is proposed in 1981,
+Mental Poker was proposed in 1981,
 by these three mens.
+This is the article.
 Do you know these guys?
 
 # step 4
 
-I want to remember you these initials S, R and A.
+I want to remined you their initials S, R and A.
 
 # step 5
 
 Do you remember these guys, about Public key cryptosystems,
 and their initials R, S, A.
-So they are creaters RSA cryptosystem, which is the one of the
+So they are creaters RSA cryptosystem, which is one of the
 most popular public key cryptography.
 
 They also invented Mental Poker.
@@ -41,6 +41,7 @@ Or over the internet.
 # step 7
 
 So without any third-party, who is trusted by everyone.
+Since over the phone, can we detect whether someone may cheat or not?
 
 # step 8
 
